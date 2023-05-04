@@ -1,0 +1,2 @@
+Javascript 1st 30 Mins of the 8 hour long video
+which includes type conversion, concatination, strings and number operations etc.

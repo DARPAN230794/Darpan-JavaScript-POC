@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Darpan's Class</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+        <img src="resources\images\logo.png" class="logo">
+        <div class="header-text">
+            <h1>Darpan's Classes</h1>
+            <h2>A platform dedicated to Students</h2>
+            <span class="square"></span>
+            <p>Welcome to our online education platform, 
+                where we believe that the future <br>belongs to those who understand the intersection of Math and Technology.<br>
+                 Our platform is designed to provide a comprehensive and integrated learning<br> experience that teaches both subjects simultaneously. 
+            </p>
+            <button class="common-btn">Read More</button>
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+                </div>
+            </div>
+        </div>       
+    </section>
+    <nav id="sideNav">
+    <ul>
+        <li><a href="#">HOME</a></li>
+        <li><a href="#">ABOUT US</a></li>
+        <li><a href="#">FEATURES</a></li>
+        <li><a href="#">COURSES</a></li>
+        <li><a href="#">OFFER</a></li>
+        <li><a href="#">CONTACT</a></li>
+        </ul>
+    </nav>
+    <img src="resources\images\menu.png" id="menuBtn">
+    
+    
+    <! ---about---->
+<section id="about">
+    <div class="about-left-col">
+        <img src="resources\images\about.png" alt="">
+ </div>
+    <div class="about-right-col">
+        <div class="about-text">
+             <h1>About us</h1>
+             <span class="square"></span>
+             <p>Our online education platform is the perfect place to learn both Mathematics and Technology in a single place.
+                 Our curriculum is designed to integrate these two important subjects, allowing students to understand how math is used in the 
+                 technology world
+                  and how technology can be used to enhance math skills. 
+                 With our innovative approach,
+                  students can learn important mathematical concepts while simultaneously gaining technological expertise that will be valuable
+                   in today's increasingly digitized world.
+                   Whether you're a student looking to improve your skills or an educator seeking new ways to enhance your teaching,
+                 our platform is the ideal choice for learning Mathematics and Technology together.</p><br><br>
+                 <div class="line">
+                    <span class="line-1"></span><br>
+                    <span class="line-2"></span><br>
+                    <span class="line-3"></span>
+                    </div>
+                  <h2>“One machine can do the work of fifty ordinary men. No machine can do the work of one extraordinary man.”</h2>
+                     <h3>... Elbert Hubbard</h3>
+                </div>
+             </div>
+      </section>
+      <!-----FEATURES------->
+      <section id="features">
+        <div class="feature-row">
+            <div class="feature-col">
+            <img src="resources\images\pic-2.png">
+                <h4> Experienced Educators</h4>
+                <p> Learn from the industry experts who are passionate about teaching.</p>
+        </div>
+            <div class="feature-col">
+                <img src="resources\images\pic-1.png">
+                <h4> Learn Anywhere</h4>
+                <p> Switch between other devices</p>
+            </div>
+            <div class="feature-col">
+                <img src="resources\images\pic-3.png">
+                <h4> Uniterrupted Access</h4>
+                <p> Choose your subject from our extensive subscription library</p>
+            </div>
+        </div>
+        <div class="feature-btn">
+            <div class="line">
+                <span class="line-1"></span><br>
+                <span class="line-2"></span><br>
+                <span class="line-3"></span>
+                </div>
+            <button class="common-btn">Start Free Trial</button>
+
+        </div>
+      </section>
+   <script>
+    var menuBtn = document.getElementById("menuBtn");
+    var sideNav = document.getElementById("sideNav");
+    sideNav.style.right = "-250px";
+    menuBtn.onclick = function(){
+        if(sideNav.style.right == "-250px"){
+            sideNav.style.right ="0";
+        }
+        else{
+            sideNav.style.right = "-250px";
+
+        }
+    }
+    </script>
+</body>
+</html>
